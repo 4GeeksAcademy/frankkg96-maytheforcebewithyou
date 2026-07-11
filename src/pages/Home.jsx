@@ -1,12 +1,9 @@
 import React, { useContext } from "react";
-// 1. Importamos nuestra nube de datos
 import { GlobalContext } from "../store";
-// 2. Importamos la Tarjeta que acabas de crear
 import { ItemCard } from "../components/ItemCard";
 export const Home = () => {
-    // 3. Extraemos las tres listas de la API
+    
     const { characters, vehicles, planets } = useContext(GlobalContext);
-    // CSS en línea para que el contenedor tenga un "scroll" horizontal bonito
     const carouselStyle = {
         gap: "10px",
         overflowX: "auto",

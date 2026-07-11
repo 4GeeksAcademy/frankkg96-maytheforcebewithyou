@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { GlobalContext } from "../store";
 
 export const Navbar = () => {
-    // 2. Extraemos el array de favoritos y la función para borrarlos
+    
     const { favorites, removeFavorite } = useContext(GlobalContext);
 	
     return (
