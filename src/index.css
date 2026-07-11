@@ -1,0 +1,63 @@
+body {
+    background-color: #090a0f !important; 
+    color: #e0e0e0 !important; 
+}
+/* Títulos (Azul Neón) */
+h1, h2, h3, h4, h5, .navbar-brand {
+    color: #00d2ff !important; 
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 0px 0px 5px rgba(0, 210, 255, 0.3);
+}
+/* Estilo de las Tarjetas  */
+.card {
+    background-color: #151821 !important; /* Gris oscuro elegante */
+    border: 1px solid #00d2ff !important; /* Borde azul */
+    box-shadow: 0 4px 10px rgba(0, 210, 255, 0.15);
+}
+
+/* Botón "Learn more!" */
+.btn-outline-light, .btn-outline-primary {
+    color: #00d2ff !important;
+    border-color: #00d2ff !important;
+    font-weight: bold;
+}
+.btn-outline-light:hover, .btn-outline-primary:hover {
+    background-color: #00d2ff !important;
+    color: #090a0f !important;
+    box-shadow: 0px 0px 15px rgba(0, 210, 255, 0.6);
+}
+/* Botón Favoritos  */
+.btn-warning, .btn-outline-warning {
+    background-color: transparent !important;
+    color: #ff2a2a !important; /* Rojo sable */
+    border-color: #ff2a2a !important;
+}
+.btn-warning:hover, .btn-outline-warning:hover {
+    background-color: #ff2a2a !important;
+    color: white !important;
+    box-shadow: 0px 0px 15px rgba(255, 42, 42, 0.6);
+}
+/* Navbar */
+.bg-dark {
+    background-color: #050608 !important; 
+    border-bottom: 2px solid #ff2a2a !important; 
+}
+/* Menú Desplegable (Dropdown) de Favoritos */
+.dropdown-menu {
+    background-color: #151821 !important;
+    border: 1px solid #ff2a2a !important; 
+}
+.dropdown-item {
+    color: #e0e0e0 !important;
+}
+.dropdown-item:hover {
+    background-color: #090a0f !important;
+    color: #00d2ff !important; 
+}
+/* Separador (hr) en la vista de Detalles */
+hr.text-danger {
+    background-color: #ff2a2a !important;
+    box-shadow: 0px 0px 10px rgba(255, 42, 42, 0.8);
+}
+
